@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Borough Slice</title>
+<meta name="description" content="Borough Slice: a small, reusable Cabinet template for local businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8D%95%3C/text%3E%3C/svg%3E">
+<style>:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }</style>
+</head>
+<body>
+
+<header class="topbar wrap">
+  <div class="wide">
+    <a class="mark" href="index.html">Live Data<span>.</span></a>
+    <nav class="nav" aria-label="Pages">
+      <a class="link" href="index.html">Cabinet</a>
+      <a class="link" href="borough-slice.html" aria-current="page">Borough Slice</a>
+      <a class="btn" href="https://github.com/ddavid37/cabinets/tree/dd_templates/game-day-marketing">Get the template</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- All copy on this page is verbatim from 02-Whitepaper/borough_slice.md. Do not edit the wording here. -->
+  <section class="hero wrap">
+    <div class="wide">
+      <div>
+        <h1>Borough <em>Slice</em></h1>
+        <p class="lede">To put this thesis to the test, I built a small, reusable Cabinet template called Borough Slice.</p>
+        <p class="lede">Borough Slice gives local businesses a marketing team that doesn't just generate content: it continuously understands what's happening around them and turns those signals into real marketing opportunities.</p>
+        <p class="lede">The first implementation is a small New York pizza shop, built around a simple idea:</p>
+        <p class="motto"><b>Local marketing should breathe with its environment.</b></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <div class="wide story-grid">
+     <div class="essay">
+      <p>I'm a Knicks fan. After years of waiting for a championship, I was completely out of my mind when it finally happened. Whenever I go to Madison Square Garden with friends, we have a tradition of grabbing some juicy NY slices after a win, sometimes even after a loss, or simply before the game when we're hungry.</p>
+      <p>That made me realize something: a marketing campaign is worth very little if it doesn't match its environment.</p>
+      <p>The data feeding it shouldn't be a static template. It should be a living resource that understands what's happening around the business and the factors that influence its customers.</p>
+      <p>A Knicks win near Madison Square Garden is not just a sports result. For a local pizza shop, it can become a marketing opportunity. A major concert, a playoff game, a neighborhood event, bad weather, a holiday or a sudden change in local activity can all create moments when the right message at the right time really matters.</p>
+      <p>The idea behind Borough Slice is simple: don't just give a business an AI that creates marketing. Give it an AI team that understands when there is something worth marketing.</p>
+      <p>It uses only Cabinet's own building blocks: markdown knowledge files, agents, skills stored inside the cabinet, scheduled jobs and an embedded dashboard. I didn't change Cabinet's code. The template is general: another business replaces six pages and keeps everything else.</p>
+     </div>
+      <figure class="post-figure">
+        <img class="post" src="assets/rangers-win-slice-story-v2.svg" alt="The Win Slice post the agents designed after a verified Rangers win" width="1080" height="1920">
+        <figcaption><em>The morning after the Rangers beat Utah 4-2 at the Garden, the agents verified the result from two sources, checked the stock and designed this Win Slice post, with the real score and the day's weather. This is a demo campaign, built entirely from real data.</em></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="inside" class="block wrap">
+    <div class="wide">
+      <h2>Inside the cabinet</h2>
+
+      <div class="shot">
+        <div class="shot-img"><img src="assets/agents.png" alt="The Borough Slice team in Cabinet's Agents view" width="2492" height="1702" loading="lazy"></div>
+        <div class="shot-text">
+          <h3>The team</h3>
+          <p><em>Thirteen agents, eight of them active. The Borough Slice team is switched on: Sports Desk, Promo Manager, Social Creator, Shop Manager, Results Analyst, Caption Writer and Image Creator, plus Cabinet's built-in Editor. Each one has a single job, a department and its own schedule. The greyed-out cards (Calendar Keeper, CEO, CFO, Researcher, Social Media Manager) are library agents I tried and benched because they had nothing real to do here.</em></p>
+        </div>
+      </div>
+
+      <div class="shot">
+        <div class="shot-img"><img src="assets/routines.png" alt="Six routines, each owned by one agent" width="2440" height="886" loading="lazy"></div>
+        <div class="shot-text">
+          <h3>Routines: the work that runs on its own</h3>
+          <p><em>Six routines, all firing, each owned by exactly one agent. The Sports Desk keeps the calendar and scores (Schedule Sync, Final Score Check, Game Day Prep), the Promo Manager decides what fires (Promo Check), the Social Creator designs the creative (Creative Queue) and the Results Analyst measures it every Monday (Weekly Results). Nobody has to ask; the world triggers the work.</em></p>
+        </div>
+      </div>
+
+      <div class="shot">
+        <div class="shot-img"><img src="assets/heartbeats.png" alt="Heartbeats view with two firing" width="2442" height="1682" loading="lazy"></div>
+        <div class="shot-text">
+          <h3>Heartbeats: initiative, used sparingly</h3>
+          <p><em>A heartbeat wakes an agent with no instructions and lets it decide what to do. I kept only two on: the Shop Manager's Monday planning session and the Editor. The specialists run on routines instead, because a precise task on a schedule is more predictable and cheaper than an open-ended wake-up. This is part of how the schedule went from about 28 runs a day to 10.</em></p>
+        </div>
+      </div>
+
+      <div class="shot">
+        <div class="shot-img"><img src="assets/agents_calender.png" alt="The team's week of October 12–18 on Cabinet's calendar" width="2458" height="1614" loading="lazy"></div>
+        <div class="shot-text">
+          <h3>The week on one calendar</h3>
+          <p><em>Everything the team does in a week, on one screen (green is a routine, pink is a heartbeat). You can read the chain directly: Final Score Check, then Promo Check, then Creative Queue, fifteen minutes apart, after each night's games; Game Day Prep in the morning feeds that day's promotion. Times show on this computer's clock (Tel Aviv), shifted from the New York times the template is designed around, because Cabinet jobs have no timezone setting.</em></p>
+        </div>
+      </div>
+
+      <div class="shot">
+        <div class="shot-img"><img src="assets/tasks_audit_trail.png" alt="A Final Score Check run, with its chat, diff and logs" width="3018" height="1706" loading="lazy"></div>
+        <div class="shot-text">
+          <h3>Every run leaves a receipt</h3>
+          <p><em>Every run is a task you can open, with its Chat, Artifacts, Diff and Logs, and the left sidebar lists each task with the files it touched. In this run the Sports Desk found nothing to check and explained why: the game files hadn't been synced since Oct 5, older games were still marked scheduled, and nothing existed after Oct 11. It reported the gap instead of quietly editing files outside its job. That is exactly the behavior you want from an agent you aren't watching.</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach" class="block wrap">
+    <div class="wide">
+      <h2>How I approached it</h2>
+      <ol class="steps">
+        <li><div><b>I read before building.</b> I went through the Cabinet source and the templates registry to learn how templates, agents, skills, jobs and embedded apps actually work, and I studied Career Ops as the reference template.</div></li>
+        <li><div><b>I used every existing resource I could find.</b> For example, I opened Cabinet's website (<a href="https://runcabinet.com/">https://runcabinet.com/</a>) in the browser's inspection mode and read its source files for formatting direction, and I read Hila's posts on X.</div></li>
+        <li><div><b>I built a first version, then narrowed it.</b> The first version was Los Tacos, a local marketing team. After reading Hila's posts on "the harness beyond code" and "a company brain that runs while you sleep", I stepped back and narrowed the idea to one strong, proactive loop: the world triggers the work, and git keeps the receipts.</div></li>
+        <li><div><b>I wrote a design spec and a step-by-step build plan.</b></div></li>
+        <li><div><b>I built it with a validator script</b> that checks every file against the spec, and tested the dashboard in a real browser.</div></li>
+        <li><div><b>I ran it live</b> in the Cabinet desktop app against real NHL and NBA data, and changed the design based on what actually happened:
+          <ul>
+            <li>Two tasks ran in parallel, and the planner saw an empty calendar.</li>
+            <li>Delegation between agents turned out to need human approval, so I switched to "files are the message bus": each agent's job reads what the previous one wrote.</li>
+            <li>An agent edited a file outside its folder.</li>
+            <li>The schedule was too busy, so I cut it from about 28 runs a day to 10.</li>
+            <li>I tried 8 agents from Cabinet's library, adapted 2 and benched 6.</li>
+          </ul></div></li>
+        <li><div><b>I recorded the decisions and the platform findings</b> in a write-up inside the cabinet.</div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="loop" class="block wrap">
+    <div class="wide">
+      <figure class="frame">
+        <img src="assets/diagram-the-loop.svg" alt="The loop: from a final score to a post ready for approval" width="1200" height="600">
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer wrap">
+  <div class="wide">
+    <span>Daniel David · October 2026</span>
+    <a href="index.html">Back to the thesis</a>
+  </div>
+</footer>
+
+</body>
+</html>

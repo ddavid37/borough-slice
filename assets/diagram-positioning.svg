@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5F5A55"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#FFF8EC"/>
+
+  <text x="600" y="52" text-anchor="middle" font-size="28" font-weight="700" fill="#1C1B1F">Where Cabinet fits</text>
+  <text x="600" y="84" text-anchor="middle" font-size="17" fill="#5F5A55">Live data and the right harness used to mean writing code. Cabinet removes that trade-off.</text>
+
+  <!-- Plot area: x 160..1040 (centered on 600), y 120..660 -->
+  <rect x="160" y="120" width="440" height="270" fill="#FFFDF7"/>
+  <rect x="600" y="120" width="440" height="270" fill="#FBE3D9"/>
+  <rect x="160" y="390" width="440" height="270" fill="#F6EEDD"/>
+  <rect x="600" y="390" width="440" height="270" fill="#FFFDF7"/>
+  <rect x="160" y="120" width="880" height="540" fill="none" stroke="#E2D3B5" stroke-width="2"/>
+  <line x1="600" y1="120" x2="600" y2="660" stroke="#E2D3B5" stroke-width="2"/>
+  <line x1="160" y1="390" x2="1040" y2="390" stroke="#E2D3B5" stroke-width="2"/>
+
+  <!-- X axis -->
+  <line x1="160" y1="690" x2="1040" y2="690" stroke="#5F5A55" stroke-width="2" marker-end="url(#ax)"/>
+  <text x="160" y="718" font-size="15" fill="#5F5A55">Generic answers</text>
+  <text x="1040" y="718" text-anchor="end" font-size="15" fill="#5F5A55">Lives with your data and your world</text>
+  <text x="600" y="746" text-anchor="middle" font-size="16" font-weight="700" fill="#1C1B1F">HOW MUCH IT KNOWS YOUR BUSINESS</text>
+
+  <!-- Y axis -->
+  <line x1="130" y1="660" x2="130" y2="120" stroke="#5F5A55" stroke-width="2" marker-end="url(#ax)"/>
+  <text x="116" y="660" text-anchor="start" font-size="15" fill="#5F5A55" transform="rotate(-90 116 660)">Needs developers</text>
+  <text x="116" y="120" text-anchor="end" font-size="15" fill="#5F5A55" transform="rotate(-90 116 120)">No code</text>
+  <text x="86" y="390" text-anchor="middle" font-size="16" font-weight="700" fill="#1C1B1F" transform="rotate(-90 86 390)">HOW EASY IT IS TO SET UP</text>
+
+  <!-- Chat apps -->
+  <circle cx="230" cy="205" r="13" fill="#1C1B1F"/>
+  <text x="254" y="201" font-size="19" font-weight="700" fill="#1C1B1F">Frontier chat apps</text>
+  <text x="254" y="225" font-size="15" fill="#5F5A55">Easy, but they don't know your business</text>
+
+  <!-- Built-in tools -->
+  <circle cx="290" cy="305" r="13" fill="#1C1B1F"/>
+  <text x="314" y="301" font-size="19" font-weight="700" fill="#1C1B1F">Built-in tools</text>
+  <text x="314" y="325" font-size="15" fill="#5F5A55">Web search, research, connectors:</text>
+  <text x="314" y="345" font-size="15" fill="#5F5A55">limited to what the platform offers</text>
+
+  <!-- Developer stacks -->
+  <circle cx="760" cy="560" r="13" fill="#1C1B1F"/>
+  <text x="784" y="556" font-size="19" font-weight="700" fill="#1C1B1F">Developer stacks</text>
+  <text x="784" y="580" font-size="15" fill="#5F5A55">LangChain, Tavily, MCP, custom</text>
+  <text x="784" y="600" font-size="15" fill="#5F5A55">workflows: powerful, needs code</text>
+
+  <!-- Cabinet -->
+  <circle cx="820" cy="190" r="22" fill="#E86A52"/>
+  <circle cx="820" cy="190" r="34" fill="none" stroke="#E86A52" stroke-width="2" opacity="0.5"/>
+  <text x="820" y="252" text-anchor="middle" font-size="26" font-weight="800" fill="#78140B">Cabinet</text>
+  <text x="820" y="280" text-anchor="middle" font-size="15" fill="#1C1B1F">Live data · the right harness · no code</text>
+  <text x="820" y="302" text-anchor="middle" font-size="15" fill="#1C1B1F">Ready-made templates, personalized in minutes</text>
+</svg>

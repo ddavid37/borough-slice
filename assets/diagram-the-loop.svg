@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1C1B1F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="600" fill="#FFF8EC"/>
+
+  <text x="600" y="52" text-anchor="middle" font-size="28" font-weight="700" fill="#1C1B1F">The loop: the world triggers the work</text>
+  <text x="600" y="84" text-anchor="middle" font-size="17" fill="#5F5A55">Borough Slice, from a final score to a post ready for approval, with no one asking</text>
+
+  <!-- Knowledge band -->
+  <rect x="40" y="112" width="1120" height="74" rx="14" fill="#FFFDF7" stroke="#E2D3B5" stroke-width="2"/>
+  <text x="64" y="144" font-size="15" font-weight="700" fill="#78140B" letter-spacing="1">WHAT THE TEAM KNOWS</text>
+  <text x="64" y="170" font-size="16" fill="#1C1B1F">Markdown pages the owner can read and edit: business · menu · brand · teams · promotions (as rules) · store data (stock and sales)</text>
+
+  <!-- feeds arrows from band -->
+  <g stroke="#B9A98B" stroke-width="2" stroke-dasharray="5 5">
+    <line x1="363" y1="186" x2="363" y2="236"/>
+    <line x1="600" y1="186" x2="600" y2="236"/>
+    <line x1="837" y1="186" x2="837" y2="236"/>
+  </g>
+
+  <!-- Step cards -->
+  <g>
+    <rect x="40" y="240" width="190" height="196" rx="16" fill="#1C1B1F"/>
+    <text x="135" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#F4B400" letter-spacing="1">1 · THE WORLD</text>
+    <text x="135" y="318" text-anchor="middle" font-size="21" font-weight="700" fill="#FFF8EC">Rangers 4</text>
+    <text x="135" y="344" text-anchor="middle" font-size="21" font-weight="700" fill="#FFF8EC">Lightning 1</text>
+    <text x="135" y="378" text-anchor="middle" font-size="15" fill="#E2D3B5">Home win at MSG,</text>
+    <text x="135" y="398" text-anchor="middle" font-size="15" fill="#E2D3B5">Oct 13</text>
+  </g>
+  <g>
+    <rect x="268" y="240" width="190" height="196" rx="16" fill="#FFFDF7" stroke="#1C1B1F" stroke-width="2"/>
+    <text x="363" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#78140B" letter-spacing="1">2 · SPORTS DESK</text>
+    <text x="363" y="314" text-anchor="middle" font-size="16" fill="#1C1B1F">Records the final</text>
+    <text x="363" y="336" text-anchor="middle" font-size="16" fill="#1C1B1F">and verifies it from</text>
+    <text x="363" y="358" text-anchor="middle" font-size="16" font-weight="700" fill="#1C1B1F">two sources</text>
+    <text x="363" y="392" text-anchor="middle" font-size="14" fill="#5F5A55">NHL API + ESPN</text>
+    <text x="363" y="412" text-anchor="middle" font-size="14" fill="#5F5A55">writes games/</text>
+  </g>
+  <g>
+    <rect x="505" y="240" width="190" height="196" rx="16" fill="#FFFDF7" stroke="#1C1B1F" stroke-width="2"/>
+    <text x="600" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#78140B" letter-spacing="1">3 · PROMO MANAGER</text>
+    <text x="600" y="314" text-anchor="middle" font-size="16" fill="#1C1B1F">Checks the rules:</text>
+    <text x="600" y="336" text-anchor="middle" font-size="16" fill="#1C1B1F">time window, stock,</text>
+    <text x="600" y="358" text-anchor="middle" font-size="16" font-weight="700" fill="#1C1B1F">once per game</text>
+    <text x="600" y="392" text-anchor="middle" font-size="14" fill="#5F5A55">fires the Win Slice</text>
+    <text x="600" y="412" text-anchor="middle" font-size="14" fill="#5F5A55">writes campaigns/</text>
+  </g>
+  <g>
+    <rect x="742" y="240" width="190" height="196" rx="16" fill="#FFFDF7" stroke="#1C1B1F" stroke-width="2"/>
+    <text x="837" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#78140B" letter-spacing="1">4 · SOCIAL CREATOR</text>
+    <text x="837" y="314" text-anchor="middle" font-size="16" fill="#1C1B1F">Designs the post,</text>
+    <text x="837" y="336" text-anchor="middle" font-size="16" fill="#1C1B1F">the Story and</text>
+    <text x="837" y="358" text-anchor="middle" font-size="16" font-weight="700" fill="#1C1B1F">the caption</text>
+    <text x="837" y="392" text-anchor="middle" font-size="14" fill="#5F5A55">real score + weather</text>
+    <text x="837" y="412" text-anchor="middle" font-size="14" fill="#5F5A55">on brand</text>
+  </g>
+  <g>
+    <rect x="970" y="240" width="190" height="196" rx="16" fill="#E86A52"/>
+    <text x="1065" y="276" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF8EC" letter-spacing="1">5 · THE OWNER</text>
+    <text x="1065" y="318" text-anchor="middle" font-size="21" font-weight="700" fill="#FFF8EC">Approves</text>
+    <text x="1065" y="356" text-anchor="middle" font-size="15" fill="#FFF8EC">Nothing is posted</text>
+    <text x="1065" y="376" text-anchor="middle" font-size="15" fill="#FFF8EC">automatically. A human</text>
+    <text x="1065" y="396" text-anchor="middle" font-size="15" fill="#FFF8EC">signs off every campaign.</text>
+  </g>
+
+  <!-- Arrows between cards -->
+  <g stroke="#1C1B1F" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="232" y1="338" x2="264" y2="338"/>
+    <line x1="460" y1="338" x2="501" y2="338"/>
+    <line x1="697" y1="338" x2="738" y2="338"/>
+    <line x1="934" y1="338" x2="966" y2="338"/>
+  </g>
+
+  <!-- Timing labels -->
+  <text x="363" y="462" text-anchor="middle" font-size="14" fill="#5F5A55">Final Score Check · 11:00 pm NY</text>
+  <text x="600" y="462" text-anchor="middle" font-size="14" fill="#5F5A55">Promo Check · 11:15 pm NY</text>
+  <text x="837" y="462" text-anchor="middle" font-size="14" fill="#5F5A55">Creative Queue · 11:30 pm NY</text>
+
+  <!-- Receipts band -->
+  <rect x="40" y="490" width="1120" height="74" rx="14" fill="#1C1B1F"/>
+  <text x="64" y="522" font-size="15" font-weight="700" fill="#F4B400" letter-spacing="1">FILES ARE THE MESSAGE BUS · GIT KEEPS THE RECEIPTS</text>
+  <text x="64" y="548" font-size="16" fill="#FFF8EC">Agents never wait on each other. Each job reads what the last one wrote, and every step is a commit you can open.</text>
+</svg>
